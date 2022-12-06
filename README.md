@@ -1,6 +1,6 @@
 # React + Redux list of TODOs
 
-I am getting an array of todos from the server and render them. The main task was to configure the sorting of todos by status and by search and also the modal window of each individual todo. [DEMO LINK](https://alej4ndro1.github.io/react_redux-list-of-todos/)
+I am getting an array of todos from the server and render them. The main task was to configure the sorting of todos by status and by search and also the modal window of each individual todo. [DEMO LINK](https://alej4ndro1.github.io/list-of-todos/)
 
 ## Local development
     "@fortawesome/fontawesome-free": "^6.2.0",
