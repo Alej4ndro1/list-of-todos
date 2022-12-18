@@ -1,18 +1,16 @@
 # React + Redux list of TODOs
 
-You are given an `app` folder with already implemented `store` and `hooks`.
-Use them to implement [Dynamic list of TODOs](https://github.com/mate-academy/react_dynamic-list-of-todos#react-dynamic-list-of-todos)
-using the Redux. It should look and work identically, so use the same markup.
+I am getting an array of todos from the server and render them. The main task was to configure the sorting of todos by status and by search and also the modal window of each individual todo. [DEMO LINK](https://alej4ndro1.github.io/list-of-todos/)
 
-> Here is [the working version](https://mate-academy.github.io/react_redux-list-of-todos/)
-
-- `features/currentTodo` contains a sample of all the required types;
-- implement `features/filter` storing `query` and `status`;
-- implement `features/todos` storing an array of todos;
-- load the todos in the `App` on page load (don't use Redux Thunk for now);
-- `useAppSelector` already aware of `RootState` so you can write selectors in your
-components (no need to write them in the store file)
-
-## Instructions
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://alej4ndro1.github.io/react_redux-list-of-todos/)
-- Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
+## Local development
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bulma": "^0.9.4",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
