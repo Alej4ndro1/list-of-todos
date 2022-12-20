@@ -14,3 +14,13 @@ I am getting an array of todos from the server and render them. The main task wa
     "redux": "^4.1.2",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1"
+
+## Installation
+
+To run this project, install it locally using npm:
+
+    
+```
+    $ npm install
+    $ npm start
+```
